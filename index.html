@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ShopEasy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav class="navbar">
+        <div class="logo">ShopEasy</div>
+
+        <div class="search-box">
+            <input type="text" id="search" placeholder="Search Products">
+        </div>
+
+        <div class="cart">
+             Cart: <span id="cartCount">0</span>
+        </div>
+    </nav>
+
+    <section class="products">
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=400" alt="Laptop">
+            <h3>Laptop</h3>
+            <p>$799</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?w=400" alt="Phone">
+            <h3>Smartphone</h3>
+            <p>$499</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphone">
+            <h3>Headphones</h3>
+            <p>$99</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1546868871-7041f2a55e12?w=400" alt="Watch">
+            <h3>Smart Watch</h3>
+            <p>$199</p>
+            <button onclick="addToCart()">Add to Cart</button>
+        </div>
+
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
